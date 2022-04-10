@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@600&family=Lobster&family=Open+Sans:wght@300&family=Orbitron:wght@500&family=Righteous&family=Roboto:wght@300&family=Russo+One&family=Staatliches&family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 20px;
+    font-size: 50px;
+}
+
+.portada{
+    height: 65vh;
+    width: 100vw;
+    background: url(https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
