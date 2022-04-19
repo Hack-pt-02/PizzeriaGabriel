@@ -10,9 +10,8 @@ body{
     background-color: black;
 }
 
-h1{
-    font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 20px;
+section[id]{
+    scroll-margin: 96px;
 }
 
 .logo{
@@ -29,6 +28,11 @@ h1{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.main_title{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 20px;
 }
 
 .call_to_action{
