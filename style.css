@@ -15,8 +15,20 @@ h1{
     letter-spacing: 20px;
 }
 
+.logo{
+    width: 70px;
+}
+
 .nav_center{
     width: 200px; 
+}
+
+.cover{
+    height: 65vh;
+    background: url(https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .call_to_action{
@@ -65,10 +77,6 @@ h1{
     font-weight: bold;
 }
 
-.logo{
-    width: 70px;
-}
-
 .card_size{
     width: 18rem;
     height: 24rem;
@@ -78,27 +86,8 @@ h1{
     height: 64px;
 }
 
-.portada{
-    height: 65vh;
-    background: url(https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.bg_slides{
+.bg_slide{
     background-color: #828282d2;
-}
-
-.titulo_slides{
-    font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 6px;
-    font-size: 40px;
-}
-
-.texto_slides{
-    font-size: 18px;
-    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .slide_img_position{   
@@ -106,10 +95,30 @@ h1{
     height: 70vh;
 }
 
+.slide_title{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+.slide_text{
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 .footer_font{
     font-family: 'Exo 2', sans-serif;
 }
 
 .footer_text_width{
-    width: 300px;
+    width: 330px;
+}
+
+@media (max-width: 576px){
+    .footer_text_width{
+        width: 90vw;
+    }
+    .slide_img_position{
+        height: 35vh;
+    }
 }
